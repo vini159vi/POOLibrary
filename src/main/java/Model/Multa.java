@@ -2,7 +2,7 @@ package Model;
 
 public class Multa {
     private int id;
-    private Usuario usuario;
+    private Emprestimo emprestimo;
     private String descricao;
     private Double valor;
 
@@ -14,12 +14,12 @@ public class Multa {
         this.id = id;
     }
 
-    public Usuario getUsuario() {
-        return usuario;
+    public Emprestimo getEmprestimo() {
+        return emprestimo;
     }
 
-    public void setUsuario(Usuario usuario) {
-        this.usuario = usuario;
+    public void setEmprestimo(Emprestimo emprestimo) {
+        this.emprestimo = emprestimo;
     }
 
     public String getDescricao() {
