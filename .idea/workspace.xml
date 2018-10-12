@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59b9a18a-12db-43e1-8013-81b107a036ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Comunidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Emprestimo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Multa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Model/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/User.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,33 +37,199 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="java" value="15" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="JAVA" value="15" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="30" />
+          <entry key="dummy" value="63" />
+          <entry key="java" value="799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="799" />
+          <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/View/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Livro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#889#890#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#711#712#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Professor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding>
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#480#481#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Funcionario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Comunidade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Aluno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Multa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Model/Emprestimo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -70,6 +248,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/okoksds.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Professor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Community.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Penalty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Loan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Livro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Emprestimo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Multa.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Model/Login.java" />
       </list>
     </option>
   </component>
@@ -80,11 +271,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="74" />
-    <option name="y" value="92" />
-    <option name="width" value="1346" />
-    <option name="height" value="687" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="683" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -135,6 +324,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,7 +339,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539300087866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539304252050" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -174,9 +371,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="683" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3081862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -211,6 +409,183 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/okoksds.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Control/Control.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/MODEL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Livro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Emprestimo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Comunidade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Multa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Professor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
