@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableView" layoutY="187.0" prefHeight="413.0" prefWidth="800.0">
+        <columns>
+          <TableColumn fx:id="columnTitulo" prefWidth="75.0" text="Título" />
+          <TableColumn fx:id="columnAutor" prefWidth="75.0" text="Autor" />
+            <TableColumn fx:id="columnCategoria" prefWidth="75.0" text="Categoria" />
+            <TableColumn fx:id="columnDisponivel" prefWidth="75.0" text="Disponível" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label fx:id="labelLivro" layoutX="30.0" layoutY="30.0" text="Livro:" />
+      <Label fx:id="labelAutor" layoutX="30.0" layoutY="71.0" text="Autor:" />
+      <Label fx:id="labelCategoria" layoutX="30.0" layoutY="110.0" text="Categoria:" />
+      <RadioButton fx:id="radioButtonDisponivel" layoutX="40.0" layoutY="147.0" mnemonicParsing="false" text="Disponível" />
+      <TextField fx:id="txtFieldLivro" layoutX="80.0" layoutY="25.0" prefHeight="26.0" prefWidth="705.0" />
+      <TextField fx:id="txtFieldAutor" layoutX="84.0" layoutY="66.0" prefHeight="26.0" prefWidth="700.0" />
+      <TextField fx:id="txtFieldCategoria" layoutX="109.0" layoutY="106.0" prefHeight="26.0" prefWidth="675.0" />
+   </children>
+</Pane>
